@@ -10,8 +10,3 @@ for (var i = 0; i < hover.length; i++) {
 function mouseOver() {
     this.style.backgroundColor ='#837C93';
   }
-
-// function mouseOut() {
-//     // this.style.visibility='hidden';
-//     this.style.backgroundColor ='#ffffff'
-//   }
