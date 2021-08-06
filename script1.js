@@ -10,3 +10,12 @@ for (var i = 0; i < hover.length; i++) {
 function mouseOver() {
     this.style.backgroundColor ='#837C93';
   }
+
+  function myFunction() {
+    var x = document.getElementById("myvertmen");
+    if (x.className === "vertical-menu") {
+      x.className += " responsive";
+    } else {
+      x.className = "vertical-menu";
+    }
+  }
